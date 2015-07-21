@@ -3,17 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package principal;
-
-import bichinho.MeuBichinho;
+package bichinho.virtual;
 
 /**
  *
  * @author JárioJosé
  */
-public class Main {
-    public static void main(String[] args) {
-        
-        MeuBichinho bichinho = new MeuBichinho("Rex");
-    }
+public interface FuncoesVitais {
+    
+    public void comer();
+    public void dormir();
+    public void vacinar();
+    public void brincar();
 }
